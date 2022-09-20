@@ -15,11 +15,10 @@
 
 
 ### Как заливать задачи:
-- создайте в ветке main папку вида: ```1contest```. 
-- создаете новую ветку с названием вида: ```1contest_taskA``` ([инструкция](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)). 
+- создаете новую ветку с названием вида: ```1contest_taskA``` ([инструкция](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository)).
 
-**Важно:** новая ветка создается из ветки main
-- переключаетесь на созданную ветку и в папку ```1contest``` заливаете ваше решение в файл ```taskA.cpp```
+**Важно:** все новые ветки создавайте из ветки ```main```
+- переключаетесь на созданную ветку и в папку ```1contest``` заливаете ваше решение в файл ```taskA.cpp```. В веб-версии создание папки делается с помощью создания файла с названием через ```/```, то есть вот так: ```1contest/taskA.cpp```.
 
 ### Как сдавать задачи:
 После того, как вы зальете решение, создайте Merge Request на слияние вашей ветки с веткой ```main``` ([инструкция](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)).
